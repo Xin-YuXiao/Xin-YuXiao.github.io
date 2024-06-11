@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "Beijing, China"
-title                    : "Xin-Yu Xiao / Peasonal Homepage"
+title                    : "Xin-Yu Xiao / Homepage"
 title_separator          : "-"
 name                     : &name "Xin-Yu Xiao"
 description              : &description "A rookie computer programmer who strives to become an astronomer."
@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "A rookie computer programmer who strives to become an astronomer."
   location         : "Beijing, China"
-  employer         : "University of Chinese Academy of Sciences"
+  employer         : "UCAS"
   uri              : # URL
   email            : "Xin-Yu.Xiao@outlook.com" 
 
