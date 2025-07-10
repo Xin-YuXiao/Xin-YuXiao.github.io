@@ -4,7 +4,7 @@ date: 2025-01-20 00:00:00 +0800
 
 selected: true
 pub: "Journal of Imaging Science and Technology"
-pub_last: ' <span class="badge badge-pill badge-publication badge-success">Published</span>
+pub_last: ' <span class="badge badge-pill badge-publication badge-success">Published</span>' 
 pub_date: "2025"
 
 abstract: >-
