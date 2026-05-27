@@ -4,7 +4,7 @@ navbar_name: "Xin-Yu Xiao"
 
 positions:
 - name: Astrometry and Celestial Mechanics
-- name: 2024.9---2029.6  PhD Candidate
+- name: 2024.9---2027.6  M.S.
 # - name: University of Chinese Academy of Sciences
 
 email: "Xin-Yu.Xiao@outlook.com"
@@ -39,7 +39,7 @@ education:
 - name: University of Chinese Academy of Sciences
   logo: /assets/images/badges/UCAS.png
   position: >-
-    M.S./Ph.D. Student, School of Astronomy and Space Science
+    M.S. Student, School of Astronomy and Space Science
   date: Sep. 2024 - present
 - name:  Qilu University of Technology (Shandong Academy of Sciences)
   logo: /assets/images/badges/QLU.jpg
