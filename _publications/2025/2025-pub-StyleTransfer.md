@@ -1,10 +1,9 @@
 ---
 title: "Integrating Wavelet Transforms into Image Reconstruction Networks for Effective Style Transfer"
 date: 2025-01-20 00:00:00 +0800
-
-selected: true
+selected: false
 pub: "Journal of Imaging Science and Technology"
-pub_last: ' <span class="badge badge-pill badge-publication badge-success">Published</span>' 
+pub_last: ' <span class="badge badge-pill badge-publication badge-success">Published</span>'
 pub_date: "2025"
 
 abstract: >-
@@ -20,5 +19,4 @@ authors:
 
 links:
   Paper: /assets/files/StyleTransfer.pdf
-  # Code: https://github.com/Xin-YuXiao/Lunar-Bench
 ---
