@@ -33,7 +33,7 @@ short_bio: >-
 
 portrait_url: /assets/images/photos/Xu.jpg  # ⚠ 确保对应图片存在
 portrait_caption: >-
-  (Optional caption, you can remove this line if you don't want it.)
+#   (Optional caption, you can remove this line if you don't want it.)
 
 education:
 - name: University of Chinese Academy of Sciences
