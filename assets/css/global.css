@@ -10,6 +10,29 @@ h1, h2, h3, h4, h5, h6,
     font-weight: 700;
 }
 
+.card {
+    border-radius: 0.8rem!important;
+}
+
+.card-img-overlay {
+    border-radius: 0.8rem!important;
+}
+
+.rounded-xl {
+    border-radius: 0.8rem!important;
+}
+
+.rounded-xl-bottom {
+    border-bottom-right-radius: 0.8rem !important;
+    border-bottom-left-radius: 0.8rem !important;
+}
+
+.rounded-xl-top {
+    border-top-left-radius: 0.8rem !important;
+    border-top-right-radius: 0.8rem !important;
+}
+
+
 .text-profile-position {
     font-weight: 400;
 }
@@ -20,7 +43,9 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .navbar {
-    opacity: 0.95;
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
 }
 
 .inline-badge {
@@ -64,6 +89,5 @@ div.lazy {
 }
 
 .email-text {
-    font-family: Courier, monospace;
+    font-family: Source Code Pro, monospace;
 }
-

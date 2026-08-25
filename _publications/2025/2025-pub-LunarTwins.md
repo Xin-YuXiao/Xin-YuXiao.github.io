@@ -7,7 +7,7 @@ pub_last: ' <span class="badge badge-pill badge-publication badge-success">Accep
 pub_date: "2025"
 
 abstract: >-
-  This paper presents Lunar Twins, the first large language models specifically designed for lunar exploration. The system includes the Chang’e and Yutu models, introduces a collaborative multi-agent workflow (Lunar_GenData), and establishes the first specialized lunar dataset integrating data from the Chang’e missions. Extensive experiments show that Lunar Twins significantly outperform comparable models in domain expertise and hint at embodied intelligence potential.
+  Lunar Twins introduces domain-specific large language models and data for lunar exploration, combining the Chang'e and Yutu models with a collaborative multi-agent workflow.
 cover: /assets/images/covers/Cover1.jpg
 authors:
   - "<strong>Xin-Yu Xiao</strong>"
@@ -18,5 +18,4 @@ authors:
   - Qianchen Xia
 links:
   Paper: /assets/files/ACL2025_Lunar_Twins.pdf
-  Code: https://github.com/Xin-YuXiao/Lunar-Twins
 ---

@@ -2,8 +2,8 @@
 
 # Site settings
 baseurl: ""  # 用户主页必须留空
-url: "https://Xin-Yu.github.io"
-title: "Xin-Yu Xiao's Academic Homepage"
+url: "https://xin-yuxiao.github.io"
+title: "Xin-Yu's Academic Homepage"
 email: "Xin-Yu.Xiao@outlook.com"
 description: "Welcome to my academic homepage, featuring publications, projects, and professional updates."
 
@@ -22,6 +22,7 @@ collections:
   - publications
   - news
   - showcase
+  - posts
 
 # Exclude from processing
 exclude:
