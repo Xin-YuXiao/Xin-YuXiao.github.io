@@ -21,15 +21,11 @@ orcid: 0009-0009-4268-4336  # 可选，如果有 ORCID
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    My research interests lie at the intersection of <strong>astronomy and artificial intelligence</strong>, focusing on multimodal perception, large language models, space mission instruction parsing, and autonomous reasoning for space applications. I conduct astronomical research under the supervision of <a href="https://nao.cas.cn/jypy/ds/bsds/202204/t20220406_6986053.html" target="_blank">Prof. Nan Li</a> at the <a href="https://nao.cas.cn/" target="_blank">National Astronomical Observatories (NAOC)</a> and <a href="https://people.ucas.ac.cn/~0072662" target="_blank">Prof. Ning An</a> at the <a href="http://www.cho.cas.cn/" target="_blank">Changchun Observatory, Chinese Academy of Sciences</a>.
+    My research focuses on <strong>large language models (LLMs) for astronomy and lunar exploration</strong>. I investigate how domain-specific data, multimodal perception, and efficient reasoning can help LLMs interpret astronomical observations, parse space-mission instructions, and support reliable scientific decision-making. My current work develops lunar language models and autonomous systems for task-oriented exploration, connecting advances in language intelligence with real-world space science.
   </p>
   <p>
-    I am currently a research intern at <a href="https://thfl.tsinghua.edu.cn/en/" target="_blank">The Future Laboratory, Tsinghua University</a>, where I am working on developing large-scale lunar language models and intelligent systems for lunar exploration. Previously, I interned at the <a href="https://nao.cas.cn/" target="_blank">National Astronomical Observatories, CAS</a> and the <a href="https://ess.sustech.edu.cn/" target="_blank">Department of Earth and Space Sciences, SUSTech</a>, gaining hands-on experience in cutting-edge astronomical and space science projects.
+    I conduct astronomical research under the supervision of <a href="https://nao.cas.cn/jypy/ds/bsds/202204/t20220406_6986053.html" target="_blank">Prof. Nan Li</a> at the <a href="https://nao.cas.cn/" target="_blank">National Astronomical Observatories (NAOC)</a> and <a href="https://people.ucas.ac.cn/~0072662" target="_blank">Prof. Ning An</a> at the <a href="http://www.cho.cas.cn/" target="_blank">Changchun Observatory, Chinese Academy of Sciences</a>. I am also a research intern at <a href="https://thfl.tsinghua.edu.cn/en/" target="_blank">The Future Laboratory, Tsinghua University</a>, where I develop large-scale lunar language models and intelligent systems for exploration.
   </p>
-
-
-
-
 
 portrait_url: /assets/images/photos/Xu.jpg  # ⚠ 确保对应图片存在
 portrait_caption: >-
