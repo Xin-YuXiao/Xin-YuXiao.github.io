@@ -16,5 +16,5 @@ authors:
   - Ye Tian
   - Qianchen Xia
 links:
-  Paper: /assets/files/EMNLP_Industry_2026_Lunar_R1.pdf
+  Paper: /assets/files/EMNLP_2026_Lunar-R1.pdf
 ---
