@@ -12,5 +12,5 @@ cover: /assets/images/covers/Cover4.jpg
 authors:
   - "<strong>Xin-Yu Xiao</strong>"
 links:
-  Paper: /assets/files/HyperLEGNN.pdf
+  Paper: /assets/files/PRICAI2026_HyperLEGNN.pdf
 ---
