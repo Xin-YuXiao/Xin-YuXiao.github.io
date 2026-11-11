@@ -19,4 +19,5 @@ authors:
 
 links:
   Paper: /assets/files/StyleTransfer.pdf
+  DOI: https://doi.org/10.2352/J.ImagingSci.Technol.2025.69.3.030404
 ---

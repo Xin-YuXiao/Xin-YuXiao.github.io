@@ -19,4 +19,5 @@ authors:
   - Qianchen Xia
 links:
   Paper: /assets/files/ACL_2026_Lunar_Bench.pdf
+  ACL Anthology: https://aclanthology.org/2026.findings-acl.83/
 ---

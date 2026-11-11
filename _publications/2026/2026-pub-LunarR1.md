@@ -18,4 +18,5 @@ authors:
   - Qianchen Xia
 links:
   Paper: /assets/files/EMNLP_2026_Lunar-R1.pdf
+  ACL Anthology: https://aclanthology.org/2026.emnlp-industry.5/
 ---

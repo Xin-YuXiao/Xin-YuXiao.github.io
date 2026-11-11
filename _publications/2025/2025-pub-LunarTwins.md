@@ -18,4 +18,5 @@ authors:
   - Qianchen Xia
 links:
   Paper: /assets/files/ACL2025_Lunar_Twins.pdf
+  ACL Anthology: https://aclanthology.org/2025.findings-acl.69/
 ---
