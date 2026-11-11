@@ -9,7 +9,7 @@ pub_date: "2025"
 abstract: >-
   This paper presents an effective method for image style transfer by integrating wavelet transforms into whitening and coloring processes within image reconstruction networks. The proposed Wavelet Transfer Network (WTN) directly aligns the feature covariance of content and style images, yielding high-quality stylized outputs with enhanced efficiency and generalization. Experimental results demonstrate the superiority of WTN over existing methods in both arbitrary and photorealistic style transfer, setting a new benchmark in the field.
 
-cover: /assets/images/covers/Cover3.jpg
+cover: /assets/images/covers/Cover5.jpg
 authors:
   - "Yunfei Chu*"
   - "Xin-Yu Xiao*"
