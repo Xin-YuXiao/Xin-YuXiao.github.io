@@ -5,7 +5,9 @@ pages:
   url: /
 - name: Publications
   url: /publications
-- name: Blog
-  url: /blog
-- name: Showcase
-  url: /showcase
+# Blog (no posts yet) and Showcase (still the template's demo cards) are hidden.
+# Uncomment to bring them back once they have your own content.
+# - name: Blog
+#   url: /blog
+# - name: Showcase
+#   url: /showcase
