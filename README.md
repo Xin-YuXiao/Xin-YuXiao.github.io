@@ -1,69 +1,63 @@
-# academic-homepage
+# Xin-Yu Xiao's Academic Homepage
 
-![Preview](assets/images/etc/preview.png)
+Source of [xin-yuxiao.github.io](https://xin-yuxiao.github.io), built with Jekyll and served by GitHub Pages from the `main` branch.
+The site is based on the [academic-homepage](https://github.com/luost26/academic-homepage) template by Shitong Luo.
 
-[![pages-build-deployment](https://github.com/luost26/academic-homepage/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/luost26/academic-homepage/actions/workflows/pages/pages-build-deployment)
-[![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fluost26.github.io%2Facademic-homepage)](https://validator.nu/?doc=https%3A%2F%2Fluost26.github.io%2Facademic-homepage)
-[![GitHub stars](https://img.shields.io/github/stars/luost26/academic-homepage)](https://github.com/luost26/academic-homepage)
-[![GitHub forks](https://img.shields.io/github/forks/luost26/academic-homepage)](https://github.com/luost26/academic-homepage/forks)
-<!-- [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fluost26%2Facademic-homepage&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com) -->
+## Preview locally
 
-A GitHub Pages (Jekyll) template for personal academic website. Click [here](https://luost.me/academic-homepage/) to see the demo.
+GitHub Pages only builds `main`, so check other branches locally before merging.
 
-## User Community
+```bash
+bundle install              # first time only
+bundle exec jekyll serve    # then open http://127.0.0.1:4000
+```
 
-[🏡](https://luost.me/)
-[:star:](https://cch1999.github.io/)
-[:star:](https://kyrrego.github.io/)
-[:star:](https://ced3-han.github.io/)
-[:star:](https://lihengchen.com/)
-[:star:](https://hpwang-whu.github.io/)
-[:star:](https://zhang-yingyi.github.io/)
-[:star:](https://wby24.github.io/)
-[:star:](https://pengfeixu.com/)
-[:star:](https://boqiuphd.github.io/)
-[:star:](https://www.huabing.li/)
-[:star:](https://xiecuiying.github.io/)
-[:star:](https://hannyang.github.io/)
-[:star:](https://king-play.github.io/)
-[🤖](https://andrewcwlee.github.io)
-[:star:](https://laiyao1.github.io)
-[🌜](https://tmsultan.github.io)
-[🚀](https://zaxguo.github.io)
-[:gemini:](https://hongyang-du.github.io)
+## Where things live
 
-:hugs: Feel free to tell us if you are using this template for your website by creating an issue [here](https://github.com/luost26/academic-homepage/issues/new?assignees=&labels=&projects=&template=user-report.md&title=I+am+using+this+template%21).
+| What | File |
+| --- | --- |
+| Name, bio, portrait, contact links, education, awards | `_data/profile.yml` |
+| Bold names, links and display names of authors | `_data/authors.yml` |
+| Navbar entries | `_data/navigation.yml` |
+| Homepage sections and number of news items | `_data/display.yml` |
+| Publications (one file per paper) | `_publications/<year>/*.md` |
+| News (one file per item) | `_news/*.md` |
+| Paper PDFs and CV | `assets/files/` |
+| Publication cover images | `assets/images/covers/` |
+| Portrait, mobile avatar | `assets/images/photos/` |
+| Favicon and touch icon | `assets/images/favicon-32.png`, `assets/images/apple-touch-icon.png` |
 
+## Adding a publication
 
-## Need Help?
+Create `_publications/<year>/<year>-pub-<Name>.md`:
 
-If you run into **any** issues while using this template, or have suggestions for improvements, please don't hesitate to create an issue [here](https://github.com/luost26/academic-homepage/issues/new).
+```yaml
+---
+title: "Paper Title"
+date: 2026-01-01 00:00:00 +0800   # used for sorting
+selected: true                    # also show on the homepage
+pub: "Venue name"
+pub_date: "2026"
+pub_last: ' <span class="badge badge-pill badge-publication badge-success">Published</span>'
+abstract: >-
+  One-paragraph summary.
+cover: /assets/images/covers/CoverN.jpg
+authors:
+  - Xin-Yu Xiao        # bold via _data/authors.yml
+  - "Co Author*"       # * = equal contribution
+  - "Other Author#"    # # = corresponding author
+links:
+  Paper: /assets/files/paper.pdf
+  ACL Anthology: https://aclanthology.org/...
+---
+```
 
+Optional fields: `semantic_scholar_id` (40-character Semantic Scholar paper ID, shows a citation badge), `pub_pre`, `pub_post`.
 
-## Getting Started
+## Adding a news item
 
-1. First, fork this repository or click the "Use this template" button to create a new repository. The name of the repository should be `<your-github-username>.github.io` (click [here](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) to learn more about naming a GitHub Pages repository).
-   - If you plan to customize the functionality or style of the template, and do not want to get updates from this repository, choose "Use this template".
-   - If you plan to only edit the content (biography, publications, news, etc.), and would like to get updates from this repository, choose "Fork".
-   - If you want to contribute to this project, fork the repository and submit a pull request.
+Create `_news/<year>-<slug>.md` with a `title` and a `date`; the homepage shows the latest items.
 
-### Running Locally (Debug & Preview)
+## License
 
-2. Follow the **step 1** and **step 2** of the instruction [here](https://jekyllrb.com/docs/) to install prerequisites and jekyll.
-
-3. Clone your forked repository to your local machine.
-
-4. Run the following command in the root directory of the repository:
-
-   ```bash
-   bundle exec jekyll serve
-   ```
-
-5. Browse to the displayed URL to see the website.
-
-### Deploying to GitHub Pages
-
-2. Go to the repository settings and enable GitHub Pages. Detailed instructions can be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
-
-3. Navigate to your created website, and follow the instructions displayed on the homepage (if any) to finalize the setup.
-
+Template code is under the MIT License, see `LICENSE`.
