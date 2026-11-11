@@ -10,7 +10,9 @@ abstract: >-
   HyperLEGNN is a hypergraph label-element neural network for low-resource Chinese legal event detection. It models relationships among event labels and their defining elements through a heterogeneous label-side hypergraph. This structure helps the model transfer information across rare and confusable event types. Experiments demonstrate improved detection performance in low-resource settings.
 cover: /assets/images/covers/Cover4.jpg
 authors:
-  - Xin-Yu Xiao
+  - Jun Zhu
+  - Hanyu Yang
+  - "Xin-Yu Xiao#"
 links:
   Paper: /assets/files/PRICAI2026_HyperLEGNN.pdf
 ---

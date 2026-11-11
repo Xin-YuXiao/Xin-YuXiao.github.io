@@ -11,9 +11,10 @@ abstract: >-
 cover: /assets/images/covers/Cover3.jpg
 authors:
   - Xin-Yu Xiao
-  - Zhixian He
-  - Shiqi Wang
   - Ye Tian
+  - Zhixian He
+  - Qilin Chen
+  - Shiqi Wang
   - Qianchen Xia
 links:
   Paper: /assets/files/EMNLP_2026_Lunar-R1.pdf
