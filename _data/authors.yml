@@ -1,22 +1,9 @@
-"Your Name":
+# Author display settings used by _includes/widgets/author_list.html.
+# Keys must match the author strings in _publications/*.md (without the trailing * or # marks).
+#   bold: true   -> render the name in bold (use this for yourself)
+#   url: ...     -> link the name to a homepage
+#   name: ...    -> display a different name than the key
+# Marks in publication files: "Name*" = equal contribution, "Name#" = corresponding author.
+
+"Xin-Yu Xiao":
   bold: true
-
-"Robert White":
-  url: https://www.google.com/?q=Robert+White
-
-"Charles Green (MIT)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+MIT
-
-"Charles Green (Stanford)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+Stanford
-
-"Garrett Harris":
-  url: https://www.google.com/?q=Garrett+Harris
-
-"James Wang":
-  url: https://www.google.com/?q=James+Wang
-
-"John Doe":
-  url: https://www.google.com/?q=John+Doe

@@ -11,8 +11,8 @@ abstract: >-
 
 cover: /assets/images/covers/Cover3.jpg
 authors:
-  - "<strong>Yunfei Chu</strong>"
-  - "<strong>Xin-Yu Xiao</strong>"
+  - "Yunfei Chu*"
+  - "Xin-Yu Xiao*"
   - Longchen Han
   - Yaoshun Yue
   - Maohai Lin

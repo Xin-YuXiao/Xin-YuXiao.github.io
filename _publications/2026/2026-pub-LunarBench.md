@@ -10,7 +10,7 @@ abstract: >-
   Lunar-Bench is a 3,000-task benchmark for evaluating task-oriented reasoning and decision-making in lunar exploration scenarios. Each task tests whether a model can reason about a lunar situation and produce an appropriate decision. Environmental Scenario Indicators measure safety, efficiency, integrity, and alignment. The benchmark provides a structured basis for comparing the reliability and practical usefulness of lunar reasoning systems.
 cover: /assets/images/covers/Cover2.jpg
 authors:
-  - "<strong>Xin-Yu Xiao</strong>"
+  - Xin-Yu Xiao
   - Ye Tian
   - Erwei Yin
   - Zhixian He

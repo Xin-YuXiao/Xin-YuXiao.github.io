@@ -10,7 +10,7 @@ abstract: >-
   Lunar-R1 is an 8B reasoning model designed for lunar exploration tasks. It introduces Latent Difficulty Perception to estimate task difficulty and adapt the length of its reasoning process. This mechanism concentrates computation on difficult problems while avoiding unnecessary tokens on simpler ones. Experiments show a 38.9% reduction in token usage together with improved accuracy.
 cover: /assets/images/covers/Cover3.jpg
 authors:
-  - "<strong>Xin-Yu Xiao</strong>"
+  - Xin-Yu Xiao
   - Zhixian He
   - Shiqi Wang
   - Ye Tian
