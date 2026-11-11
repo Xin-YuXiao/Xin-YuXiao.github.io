@@ -31,7 +31,8 @@ short_bio: >-
 
 
 
-portrait_url: /assets/images/photos/Xu.jpg  # ⚠ 确保对应图片存在
+portrait_url: /assets/images/photos/portrait_shiba.jpg  # 桌面端主图
+avatar_url: /assets/images/photos/avatar_shiba.jpg  # 移动端圆形头像（面部裁剪），不填则回退到 portrait_url
 #   portrait_caption: >-
 #   (Optional caption, you can remove this line if you don't want it.)
 
