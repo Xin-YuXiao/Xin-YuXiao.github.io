@@ -2,7 +2,7 @@
 title: "Lunar Twins: We Choose to Go to the Moon with Large Language Models"
 date: 2025-05-16 00:00:00 +0800
 selected: true
-pub: "Annual Meeting of the Association for Computational Linguistics (ACL)"
+pub: "Findings of the Association for Computational Linguistics: ACL"
 pub_last: ' <span class="badge badge-pill badge-publication badge-success">Published</span>'
 pub_date: "2025"
 

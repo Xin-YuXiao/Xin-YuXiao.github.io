@@ -2,7 +2,7 @@
 title: "Lunar-Bench: Towards Evaluating Task-Oriented Reasoning of LLMs in Lunar Exploration Scenarios"
 date: 2026-04-08 00:00:00 +0800
 selected: true
-pub: "Annual Meeting of the Association for Computational Linguistics (ACL)"
+pub: "Findings of the Association for Computational Linguistics: ACL"
 pub_last: ' <span class="badge badge-pill badge-publication badge-success">Published</span>'
 pub_date: "2026"
 
