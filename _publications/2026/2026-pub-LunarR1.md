@@ -1,9 +1,9 @@
 ---
-title: "Lunar-R1: Towards Efficient Reasoning of Large Language Models for Lunar Exploration via Reinforcement Learning"
+title: "Lunar-R1: Efficient Reasoning of Large Language Models for Lunar Exploration via Reinforcement Learning"
 date: 2026-08-20 00:00:00 +0800
 selected: true
 pub: "Empirical Methods in Natural Language Processing (EMNLP) Industry Track"
-pub_last: ' <span class="badge badge-pill badge-publication badge-success">Accepted</span>'
+pub_last: ' <span class="badge badge-pill badge-publication badge-success">Published</span>'
 pub_date: "2026"
 
 abstract: >-
